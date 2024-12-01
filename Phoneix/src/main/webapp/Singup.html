@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sing Up</title>
+<link rel="icon"
+	href="https://cdn.pixabay.com/photo/2023/09/12/20/41/ai-generated-8249560_640.png">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+	integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="sing.css">
+</head>
+<body>
+	<div id="main" style="	margin-top: 50px">
+		<div id="color"></div>
+		<div id="left">
+			<!-- <p id="style">Let's Make it Happen Together!</p> -->
+			<img
+				src="https://cdn.pixabay.com/photo/2023/09/12/20/41/ai-generated-8249560_640.png"
+				alt="" width="300px" height="300px">
+		</div>
+		<div id="right">
+			<form action="singup" method="post">
+				<table cellpadding="2px" cellspacing="5px">
+					<tr>
+						<td><h1>
+								CO<span>.</span>
+							</h1></td>
+						<td><label for="checkbox" id="have">Already have an
+								account?<a href="http://localhost:8081/Phoneix/login.html">		Login in here</a>
+						</label></td>
+					</tr>
+					<tr>
+						<td>
+							<h1>Create An Account</h1>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="First">Frist Name</label> <br> <input
+							type="text" name="Frist_Name" id="First" placeholder="Frist Name" required>
+						</td>
+						<td><label for="Last">Last Name</label> <br> <input
+							type="text" name="last_Name" id="Last" placeholder="Last Name" required>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="Email">Email</label><br> <input
+							type="email" name="email" id="Email" placeholder="email123@gmail.com"
+							required></td>
+						<td><label for="address">Address</label><br> <textarea
+								name="address" id="addres"></textarea></td>
+					</tr>
+					<tr>
+						<td><label for="Create">Create Password</label><br> <input
+							type="password" name="Create_Password" id="Create" required></td>
+						<td><label for="Confirm">Confirm Password</label><br> <input
+							type="password" name="Confirm_Password" id="Confirm" required></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="" id="checkbox" required>
+						</td>
+						<td><label for="checkbox" id="account">Creating your
+								account and you accepting <a href="#">Terms and Conditions</a>
+						</label></td>
+					</tr>
+					<tr>
+						<td>
+							<button id="btn">Create Account</button>
+						</td>
+					</tr>
+
+				</table>
+			</form>
+			<table id="table">
+				<tr>
+					<td>
+						<button id="btn1">
+							<a href="https://www.facebook.com/"><i
+								class="fa-brands fa-facebook fa-xl" style="color: #0e94fb;"></i></i></i>Sign
+								up Using Facbook</a>
+						</button>
+					</td>
+					<td id="spcae">
+						<button id="btn1">
+							<a href="https://x.com/i/flow/login"><i
+								class="fa-brands fa-square-x-twitter fa-xl"
+								style="color: #0e94fb;"></i>Sign up Using Twitter</a>
+						</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

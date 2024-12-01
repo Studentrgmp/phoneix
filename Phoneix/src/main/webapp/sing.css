@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+span{
+    color: white;
+}
+#have{
+    color: white;
+    margin-left: -100px;
+}
+#main{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #154360;
+    height: 550px;
+    width: 1150px;
+    flex-wrap: wrap;
+    margin: 0px auto 0px;
+}
+#color{
+    width: 60px;
+    height: 550px;
+    background-color: #f1c40f;
+}
+#style{
+    font-size: 50px;
+    width: 300px;
+}
+#left{
+    color: white;
+}
+#right{
+    width: 550px;
+    padding-left: 65px;
+    height: 500px;
+    padding-left: auto;
+    background-color: #f1c40f;
+}
+#account{
+    margin-left: -235px;
+    color: white;
+}
+input{
+    height: 25px;
+    justify-self: center;
+}
+label{
+    font-weight: bolder;
+    color:#154360;
+}
+#btn{
+    height: 35px;
+    color: white;
+    width: 150px;
+    background-color: #154360;
+    border-radius: 5px;
+
+}
+#table{
+    width: 500px;
+}
+a{
+    text-decoration: none;
+}
+#btn1{
+    height: 35px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: white;
+    justify-content: space-around;
+    border: none;
+    border-radius: 5px;
+}
+#spcae{
+    margin-left: -55px;
+}
+textarea{
+    height: 25px;
+}

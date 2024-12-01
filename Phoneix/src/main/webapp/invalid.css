@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    color: white;
+}
+#main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #154360;
+    height: 500px;
+    width: 700px;
+    flex-wrap: wrap;
+}
+#color{
+    width: 60px;
+    height: 500px;
+    background-color: #f1c40f;
+}
+#right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 450px;
+    padding-left: auto;
+    background-color: #f1c40f;
+}
+button{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #154360;
+    color: white;
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    width: 275px;
+}
